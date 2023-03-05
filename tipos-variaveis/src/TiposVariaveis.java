@@ -1,11 +1,11 @@
 public class TiposVariaveis {
     public static void main(String[] args) {
-        int numero1 = 4;
-        int numero2 = 4;
+        int numero1 = 12;
+        int numero2 = 8;
 
-        boolean simNao = numero1 != numero2;
+        boolean simNao = numero1 > numero2;
 
-        System.out.println("Numero1 é diferente de Numero2? " + simNao);
+        System.out.println("Numero1 é maior que Numero2? " + simNao);
 
     }
 }
