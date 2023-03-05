@@ -1,10 +1,13 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
-        boolean variavel = true;
-        System.out.println(variavel);
+    public static void main(String[] args) {
+        int a, b;
 
-        variavel = !variavel;
-        System.out.println(variavel);
+        a = 7;
+        b = 7;
+
+        boolean resultado = a == b ? true : false;
+
+        System.out.println(resultado);
 
     }
 }
