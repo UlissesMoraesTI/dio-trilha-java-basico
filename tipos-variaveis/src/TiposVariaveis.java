@@ -1,13 +1,11 @@
 public class TiposVariaveis {
     public static void main(String[] args) {
-        int a, b;
+        int numero1 = 4;
+        int numero2 = 4;
 
-        a = 7;
-        b = 7;
+        boolean simNao = numero1 == numero2;
 
-        boolean resultado = a == b ? true : false;
-
-        System.out.println(resultado);
+        System.out.println("Numero1 é iqual a Numero2? " + simNao);
 
     }
 }
