@@ -1,15 +1,15 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        int numero = 5;
+        int numero1 = 5;
+        int numero2 = 9;
 
-        // deixando valor negativo
-        numero = -numero;
+        // incremento
+        numero1++;
+        System.out.println(numero1);
 
-        System.out.println(numero);
-
-        // deixando valor positivo
-        numero = numero * -1;
-        System.out.println(numero);
+        // decremento
+        numero2--;
+        System.out.println(numero2);
 
     }
 }
