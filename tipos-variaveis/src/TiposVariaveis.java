@@ -1,11 +1,9 @@
 public class TiposVariaveis {
     public static void main(String[] args) {
-        int numero1 = 2;
-        int numero2 = 8;
+        String nome1 = "JOAO";
+        String nome2 = new String("JOAO");
 
-        boolean simNao = numero1 < numero2;
-
-        System.out.println("Numero1 é menor que Numero2? " + simNao);
+        System.out.println(nome1.equals(nome2));
 
     }
 }
