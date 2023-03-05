@@ -1,9 +1,10 @@
 public class TiposVariaveis {
     public static void main(String[] args) {
-        String nome1 = "JOAO";
-        String nome2 = new String("JOAO");
+        boolean condicao1 = true;
+        boolean condicao2 = true;
 
-        System.out.println(nome1.equals(nome2));
-
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras");
+        }
     }
 }
