@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String diaSemana = "8";
+        String diaSemana = "1";
 
         switch (diaSemana) {
             case "1":
@@ -27,6 +27,25 @@ public class App {
                 break;
             default:
                 System.out.println("Dia Semanda Inválido!");
+                break;
+        }
+
+        int numero = 6;
+
+        switch (numero) {
+            case 1:
+            case 2:
+            case 3:
+                System.out.println("Certo");
+                break;
+            case 4:
+                System.out.println("Errado");
+                break;
+            case 5:
+                System.out.println("Talvez");
+                break;
+            default:
+                System.out.println("Indefinido");
                 break;
         }
     }
