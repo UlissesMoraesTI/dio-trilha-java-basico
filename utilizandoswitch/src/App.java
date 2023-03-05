@@ -48,5 +48,18 @@ public class App {
                 System.out.println("Indefinido");
                 break;
         }
+
+        String mes = "Março";
+
+        switch (mes) {
+            case "Janeiro":
+            case "Julho":
+            case "Dezembro":
+                System.out.println("Férias");
+                break;
+            default:
+                System.out.println("Mês Produtivo");
+                break;
+        }
     }
 }
