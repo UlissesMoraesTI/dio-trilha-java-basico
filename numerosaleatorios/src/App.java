@@ -12,12 +12,17 @@ public class App {
             numerosAleatorios[i] = numero;
         }
 
-        System.out.print("...............Números Aleatórios: ");
+        System.out.print("Antecessor Números: ");
+        for (int numero : numerosAleatorios) {
+            System.out.print((numero - 1) + " ");
+        }
+
+        System.out.print("\n...........Números: ");
         for (int numero : numerosAleatorios) {
             System.out.print((numero) + " ");
         }
 
-        System.out.print("\nSucessores dos Números Aleatórios: ");
+        System.out.print("\nSucessores Números: ");
         for (int numero : numerosAleatorios) {
             System.out.print((numero + 1) + " ");
         }
